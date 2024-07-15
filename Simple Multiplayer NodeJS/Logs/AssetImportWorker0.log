@@ -1,0 +1,475 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 14188 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/unitygames/Unity-Multiplayer-Networking-NodeJS/Simple Multiplayer NodeJS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60745
+Successfully changed project path to: C:/unitygames/Unity-Multiplayer-Networking-NodeJS/Simple Multiplayer NodeJS
+C:/unitygames/Unity-Multiplayer-Networking-NodeJS/Simple Multiplayer NodeJS
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7068] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1446143635 [EditorId] 1446143635 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-ARIJ4KUE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7068] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1446143635 [EditorId] 1446143635 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-ARIJ4KUE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 5.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/unitygames/Unity-Multiplayer-Networking-NodeJS/Simple Multiplayer NodeJS/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25e2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.5599
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.023473 seconds.
+- Loaded All Assemblies, in  0.447 seconds
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 280 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.720 seconds
+Domain Reload Profiling: 1165ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (162ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (721ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (643ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (470ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.705 seconds
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.518 seconds
+Domain Reload Profiling: 1221ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (444ms)
+		LoadAssemblies (252ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (253ms)
+			TypeCache.Refresh (242ms)
+				TypeCache.ScanAssembly (228ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (519ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (345ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1485 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (53.2 KB). Loaded Objects now: 1958.
+Memory consumption went from 84.2 MB to 84.2 MB.
+Total: 3.787300 ms (FindLiveObjects: 0.174300 ms CreateObjectMapping: 0.102100 ms MarkObjects: 3.399000 ms  DeleteObjects: 0.110200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 77979.477057 seconds.
+  path: Assets/SocketIO/WebsocketSharp/CompressionMethod.cs
+  artifactKey: Guid(990ecb6d612370f408def5e017442d1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/CompressionMethod.cs using Guid(990ecb6d612370f408def5e017442d1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44fa3da6fbeda9afc7111867b1d4b7a2') in 0.109319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SocketIO/WebsocketSharp/CloseStatusCode.cs
+  artifactKey: Guid(22af06d118f46d441bca7d17c4fdbc41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/CloseStatusCode.cs using Guid(22af06d118f46d441bca7d17c4fdbc41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c03a0c6975bc0148922e7f840f5c85df') in 0.014559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/SocketIO/WebsocketSharp/Net/HttpListener.cs
+  artifactKey: Guid(4a424a80e4de6074290037399bfb50ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/Net/HttpListener.cs using Guid(4a424a80e4de6074290037399bfb50ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2692c1e21471ebf2d6e309a9355cf44') in 0.012184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SocketIO/WebsocketSharp/WebSocketFrame.cs
+  artifactKey: Guid(0508f37c785f68b4ebd94c3469b06ff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/WebSocketFrame.cs using Guid(0508f37c785f68b4ebd94c3469b06ff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14558a9376272dd0dc5a984bf787b2f9') in 0.013482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SocketIO/WebsocketSharp/Net/EndPointListener.cs
+  artifactKey: Guid(a97d8730eff548644883a34cc4eac68d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/Net/EndPointListener.cs using Guid(a97d8730eff548644883a34cc4eac68d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a24b232bbb6773d8d8b756e38ff8f84d') in 0.012531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SocketIO/WebsocketSharp/HandshakeBase.cs
+  artifactKey: Guid(fe5b43f99c9141d4e99bfad6c0359e7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/HandshakeBase.cs using Guid(fe5b43f99c9141d4e99bfad6c0359e7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '878e8f84fa7e1b4de9045c22368a1b98') in 0.011663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(f7a345bff75cf42a9a164f58b857c401) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Main.unity using Guid(f7a345bff75cf42a9a164f58b857c401) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68879fd76516c733f48bc4de9fad4cd1') in 0.012332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SocketIO/WebsocketSharp/Net/RequestStream.cs
+  artifactKey: Guid(2dc6edc6aff89984592d3bb9f6d3a77f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/Net/RequestStream.cs using Guid(2dc6edc6aff89984592d3bb9f6d3a77f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27b1921431c36f3c2e81118fc19d2e76') in 0.012644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SocketIO/WebsocketSharp/Net/HttpBasicIdentity.cs
+  artifactKey: Guid(4c26c419a36603d438160d63c60759ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/Net/HttpBasicIdentity.cs using Guid(4c26c419a36603d438160d63c60759ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f86fa45ea9907965283930c14ddccf9') in 0.013650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs
+  artifactKey: Guid(961346d7e16a445ff93777573e78efd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs using Guid(961346d7e16a445ff93777573e78efd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72010e94dfd2441176916fab985b18f0') in 0.011555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SocketIO/Scripts/SocketIO/SocketIOEvent.cs
+  artifactKey: Guid(0478da7272a8446dabf31efa772affad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/Scripts/SocketIO/SocketIOEvent.cs using Guid(0478da7272a8446dabf31efa772affad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac166c12c27e1651766efc8683c78582') in 0.010462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SocketIO/WebsocketSharp/Net/ChunkedRequestStream.cs
+  artifactKey: Guid(cc6a5a78a833514469846f16f1e26749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/Net/ChunkedRequestStream.cs using Guid(cc6a5a78a833514469846f16f1e26749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb3dc0fcacef34ec9e02b5ba8bda9170') in 0.013356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SocketIO/WebsocketSharp/Net/Security/SslStream.cs
+  artifactKey: Guid(a77656427ba58c34baaabdfe963157e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/Net/Security/SslStream.cs using Guid(a77656427ba58c34baaabdfe963157e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9573e995f93af28ffce176b210161140') in 0.013611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Ground.prefab
+  artifactKey: Guid(83d6b418961954b48ba2fc8ccad0fbb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Ground.prefab using Guid(83d6b418961954b48ba2fc8ccad0fbb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '684c5e35e8fadd24c33cf2b7acc49072') in 0.029041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SocketIO/Scripts/SocketIO/Ack.cs
+  artifactKey: Guid(6fa9179af012046faad73ac18c415335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/Scripts/SocketIO/Ack.cs using Guid(6fa9179af012046faad73ac18c415335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c026c0712091a3e961125bcfdefb61db') in 0.011211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SocketIO/WebsocketSharp/Net/HttpListenerContext.cs
+  artifactKey: Guid(6590397730b7c564a91f42ff33fc9ea6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/Net/HttpListenerContext.cs using Guid(6590397730b7c564a91f42ff33fc9ea6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '376c9326c60a635ebba00a614cf8373a') in 0.011314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SocketIO/WebsocketSharp/Net/ListenerPrefix.cs
+  artifactKey: Guid(e7ba3d09617a06746ae4f00db5cc7e95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/Net/ListenerPrefix.cs using Guid(e7ba3d09617a06746ae4f00db5cc7e95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74f59ce1789d4df82b653d157316bba4') in 0.010143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SocketIO/Scripts/SocketIO/EnginePacketType.cs
+  artifactKey: Guid(4188e69e5ebff473a882031651f196d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/Scripts/SocketIO/EnginePacketType.cs using Guid(4188e69e5ebff473a882031651f196d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ed3b28003302615f0a1aacc71cf2a66') in 0.012320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SocketIO/WebsocketSharp/Rsv.cs
+  artifactKey: Guid(9c96f786bb0a34043b18bb4f8110cff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/Rsv.cs using Guid(9c96f786bb0a34043b18bb4f8110cff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '699f4e61e1498f0393d901fcd2900c9d') in 0.013330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/SocketIO/WebsocketSharp/Net/QueryStringCollection.cs
+  artifactKey: Guid(5f869b9a24c9507449fd4c9212e6fbe3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/Net/QueryStringCollection.cs using Guid(5f869b9a24c9507449fd4c9212e6fbe3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5abfb0e3742e517edfa83daa960415c') in 0.011351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Spawn Point.prefab
+  artifactKey: Guid(1286f7f5e90364316a73873a8d40c30f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Spawn Point.prefab using Guid(1286f7f5e90364316a73873a8d40c30f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66ec38138015e06438d983a13711d806') in 0.011132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SocketIO/WebsocketSharp/websocket-sharp.snk
+  artifactKey: Guid(bf290fc04cfd7bc4ea70598dec911109) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/websocket-sharp.snk using Guid(bf290fc04cfd7bc4ea70598dec911109) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97b344162834b46e63b2f820b47bf515') in 0.012800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SocketIO/Scripts/SocketIO/SocketIOException.cs
+  artifactKey: Guid(1a922e9bb9b544eb7b91b92fde935827) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/Scripts/SocketIO/SocketIOException.cs using Guid(1a922e9bb9b544eb7b91b92fde935827) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ecb53f90395ec89ee87bd8e77d87e3a') in 0.012677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SocketIO/WebsocketSharp/Net/ReadBufferState.cs
+  artifactKey: Guid(0305b53a1181299409eba30b39680acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/Net/ReadBufferState.cs using Guid(0305b53a1181299409eba30b39680acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '964f33c1f5b2b9bc9b0741c9b3fe6ad7') in 0.011721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SocketIO/Scripts/SocketIO/Parser.cs
+  artifactKey: Guid(af6cc409b9f7f42198b3270ffcaeed13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/Scripts/SocketIO/Parser.cs using Guid(af6cc409b9f7f42198b3270ffcaeed13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8385da89b20651475e8f4b556dd49bf') in 0.014806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SocketIO/WebsocketSharp/AssemblyInfo.cs
+  artifactKey: Guid(1521934461328a04e98f127fd326e0be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/AssemblyInfo.cs using Guid(1521934461328a04e98f127fd326e0be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdc5393364a16093858d9d157281c49d') in 0.012997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SocketIO/WebsocketSharp/Net/HttpListenerPrefixCollection.cs
+  artifactKey: Guid(8f7886e9bea6f624889aafd692f585a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/Net/HttpListenerPrefixCollection.cs using Guid(8f7886e9bea6f624889aafd692f585a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cf33372462060e4e100d94b9da2f284') in 0.011394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/SocketIO/WebsocketSharp/Net/AuthenticationBase.cs
+  artifactKey: Guid(910cdcca401a9924697b5a4caa654421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/Net/AuthenticationBase.cs using Guid(910cdcca401a9924697b5a4caa654421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1dc6c6363b617b006bcb854bbc642dca') in 0.012385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SocketIO/WebsocketSharp/Logger.cs
+  artifactKey: Guid(8b9b20c2797001e4896a1d5b84dcafd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/Logger.cs using Guid(8b9b20c2797001e4896a1d5b84dcafd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03718a79c98c041453d77cda3a3297f7') in 0.012146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SocketIO/WebsocketSharp/Net/InputState.cs
+  artifactKey: Guid(2fc14597a95d5d3489fc8652e6aa12cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SocketIO/WebsocketSharp/Net/InputState.cs using Guid(2fc14597a95d5d3489fc8652e6aa12cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a06444f03383a875b3b90a22082c132') in 0.011374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -11,6 +11,9 @@ public class PlayerController : MonoBehaviour {
 	Vector3 currentPosition;
 	Quaternion oldRotation;
 	Quaternion currentRotation;
+	// Reference to the player's camera
+	public GameObject playerCamera;
+
 
 	// Use this for initialization
 	void Start () {
@@ -18,6 +21,12 @@ public class PlayerController : MonoBehaviour {
 		currentPosition = oldPosition;
 		oldRotation = transform.rotation;
 		currentRotation = oldRotation;
+
+		PlayerCamera cameraScript = playerCamera.GetComponent<PlayerCamera>();
+		if (cameraScript != null)
+		{
+			cameraScript.target = transform; // Assign player's transform to camera target
+		}
 	}
 	
 	// Update is called once per frame

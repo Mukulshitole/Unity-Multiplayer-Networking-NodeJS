@@ -12,7 +12,7 @@ public class NetworkManager : MonoBehaviour {
 	public SocketIOComponent socket;
 	public InputField playerNameInput;
 	public GameObject player;
-
+	public GameObject uicame;
 	void Awake()
 	{
 		if (instance == null)
@@ -34,6 +34,11 @@ public class NetworkManager : MonoBehaviour {
 		socket.On("health", OnHealth);
 		socket.On("other player disconnected", OnOtherPlayerDisconnect);
 	}
+
+	public void delete()
+    {
+		uicame.SetActive(false);
+    }
 
 	public void JoinGame()
 	{
